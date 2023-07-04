@@ -1,0 +1,29 @@
+[
+    {
+        "Cerveja": "Stella Artois",
+        "Nome da fabrica": "Ambev",
+        "Teor alcoólico": "5%"
+    },
+    {
+        "Cerveja": "Heineken",
+        "Nome da fabrica": "Heineken Brasil",
+        "Teor alcoólico": "5%"  
+    },
+    {
+        "Cerveja": "Lagunitas",
+        "Nome da fabrica": "Heineken Brasil",
+        "Teor alcoólico": "6,2"  
+    },
+    {
+        "Cerveja": "Bden Baden",
+        "Nome da fabrica": "Brasil Kirin",
+        "Teor alcoólico": "5%"  
+    },
+    {
+        "Cerveja": "Hoegaarden",
+        "Nome da fabrica": "Ambev",
+        "Teor alcoólico": "4,9%"  
+    }
+      
+    
+]
