@@ -1,8 +1,8 @@
-import express from 'express';
+import Router from 'express';
 
-const router = express.Router;
+const router = Router();
 
-router.length("/", function (req, res) {
+router.get("/", function (req, res) {
     res.status(200).send({
         title: "Bem vindas a turma Devas do Full-Stack",
         version: "1.0.0"
