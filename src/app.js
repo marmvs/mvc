@@ -7,7 +7,7 @@ const app = express();  //esta variável recebe express e sera utilizada em outr
 
 app.use(express.json());
 app.use("/", index);
-app.use("/apis, apis");
+app.use("/apis", apis);
 
 db.on("error", console.log.bind(console, 'Erro de conexão'))
 db.once("open", () => {

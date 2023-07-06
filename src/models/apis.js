@@ -4,11 +4,11 @@ const apiSchema = new mongoose.Schema(
     {
         cerveja: { type: String, required: true },
         nomeDaFabrica: { type: String, required: true },
-        teorAlcoólico: { type: Number, required: true }
+        teorAlcoolico: { type: String, required: true }
     }
 )
 
 
 const apis = mongoose.model('apis', apiSchema);
 
-module.exports = apis;
+export default apis;
